@@ -32,15 +32,15 @@ while($Result = mysqli_fetch_array($res))
   {
   ?>
     <tr>
-      <td><center><?php echo $Result['Name'];?></center></td>
-      <td><center><?php echo $Result['Comment'];?></center></td>
+      <td><center><?php echo $Result['NAME'];?></center></td>
+      <td><center><?php echo $Result['COMMENT'];?></center></td>
       <td><center><a href="form edit.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="form delete.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
     </tr>
   <?php
   }
   ?>
   </table>
-  <center><a href="form insert.html"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
+  <center><a href="form insert.php"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
   <?php
   mysqli_close($conn);
   ?>
