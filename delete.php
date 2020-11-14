@@ -12,8 +12,8 @@ $name = $_POST['name'];
 $comment = $_POST['comment'];
 
 
-$sql = $sql = "DELETE FROM guestbook WHERE NAME='$name'";
-$sql = "DELETE FROM guestbook WHERE COMMENT='$comment'";
+$sql = $sql = "DELETE FROM guestbook WHERE Name='$name'";
+$sql = "DELETE FROM guestbook WHERE Comment='$comment'";
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully! CONGRATULATION!";
