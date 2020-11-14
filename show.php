@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>˗ˏˋITF LABˎˊ˗</title>
+<title>ITFFFFFF</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -38,8 +38,8 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
   {
   ?>
     <tr>
-      <td><center><?php echo $Result['NAME'];?></center></td>
-      <td><center><?php echo $Result['COMMENT'];?></center></td>
+      <td><center><?php echo $Result['Name'];?></center></td>
+      <td><center><?php echo $Result['Comment'];?></center></td>
       <td><center><a href="formindex.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="formdelete.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
     </tr>
   <?php
