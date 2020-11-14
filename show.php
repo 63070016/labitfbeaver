@@ -25,7 +25,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 
 <div class="container">
     <div class="form">
-        <p class="ex1"><h1><center>เหนื่อยค้าบ</center></h1></p>
+        <p class="ex1"><h1><center>꒰FORM =͟͟͞͞♡</center></h1></p>
     </div>
   <table width="600" border="1" class="table table-dark table-striped" class="center" class="ex1">
     <tr class="info">
@@ -40,13 +40,13 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <tr>
       <td><center><?php echo $Result['NAME'];?></center></td>
       <td><center><?php echo $Result['COMMENT'];?></center></td>
-      <td><center><a href="form edit.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="form delete.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
+      <td><center><a href="formedit.html"><input type="submit" value="EDIT" class="btn btn-warning"></a>&nbsp;&nbsp;<a href="formdelete.html"><input type="submit" value="DELETE"  class="btn btn-danger"></a></center></td>
     </tr>
   <?php
   }
   ?>
   </table>
-  <center><a href="form insert.html"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
+  <center><a href="forminsert.html"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
   <?php
   mysqli_close($conn);
   ?>
