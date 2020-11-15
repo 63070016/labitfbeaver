@@ -7,11 +7,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <style>
-  p.ex1 {
-    margin-top: 25px;
-  }
-  </style>
 </head>
 <body>
 <?php
@@ -28,12 +23,12 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
     <div class="form">
         <p class="ex1"><h1><center>FELT</center></h1></p>
     </div>
-  <table width="600" class="table table-dark table-hover table-striped" class="center" >
+  <table width="800" border="1" class="table table-dark table-hover table-striped" class="center" >
     <thead class="thead-dark">
     <tr class="active">
-      <th width="200"> <div align="center">Name</div></th>
-      <th width="350"> <div align="center">How are you</div></th>
-      <th width="50"> <div align="center">Action</div></th>
+      <th width="100"> <div align="center">Name</div></th>
+      <th width="200"> <div align="center">How are you</div></th>
+      <th width="500"> <div align="center">Action</div></th>
     </tr>
      </thead>
   <?php
