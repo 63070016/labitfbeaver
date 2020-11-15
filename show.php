@@ -21,13 +21,13 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
 
 <div class="container">
     <div class="form">
-        <p class="ex1"><h1><center>FELT</center></h1></p>
+        <p class="ex1"><h1><center>How are you today</center></h1></p>
     </div>
   <table width="800" border="1" class="table table-dark table-hover table-striped" class="center" >
     <thead class="thead-dark">
     <tr class="active">
       <th width="200"> <div align="center">Name</div></th>
-      <th width="500"> <div align="center">How are you</div></th>
+      <th width="500"> <div align="center">Felt</div></th>
       <th width="100"> <div align="center">Action</div></th>
     </tr>
      </thead>
