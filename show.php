@@ -29,11 +29,13 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
         <p class="ex1"><h1><center>FELT</center></h1></p>
     </div>
   <table width="600" border="2" class="table table-dark table-hover table-striped" class="center" >
-    <tr class="info">
+    <thead class="thead-dark">
+    <tr class="active">
       <th width="200"> <div align="center">Name</div></th>
       <th width="350"> <div align="center">How are you</div></th>
       <th width="50"> <div align="center">Action</div></th>
     </tr>
+     </thead>
   <?php
   while($Result = mysqli_fetch_array($res))
   {
