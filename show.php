@@ -46,7 +46,7 @@ $res = mysqli_query($conn, 'SELECT * FROM guestbook');
   }
   ?>
   </table>
-  <center><a href="forminsert.html"><input type="submit" value="INSERT" class="btn btn-info"></a></center>
+  <a href="forminsert.html"><input type="submit" value="ADD" class="btn btn-info"></a>
   <?php
   mysqli_close($conn);
   ?>
